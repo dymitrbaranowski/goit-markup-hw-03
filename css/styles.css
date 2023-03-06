@@ -15,12 +15,39 @@
 }
 
 body {
+  color: var(--Text);
+  background-color: var(--B-g-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
 
-    color: var(--Text);
-    background-color: var(--B-g-color);
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    }
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+address {
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+}
 /*
 ul {
   list-style: none;
@@ -154,7 +181,7 @@ ite section
 Our advantages*/
 
 .section-advantages {
-  background-color: var(--Dark);
+  background-color: var(--B-g-color);
   
 }
  
