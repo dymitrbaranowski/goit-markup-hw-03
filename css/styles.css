@@ -19,6 +19,7 @@ body {
   background-color: var(--B-g-color);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  
 }
 
 h1,
@@ -62,6 +63,28 @@ a {
 }
 */
 /* Site nav*/
+
+.container {
+  width: 1440px;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+  
+} 
+
+.header-container {
+  display: flex;
+  align-items: center;
+  height: 72px;
+left: 0px;
+top: 0px;
+}
+
+.site-logo {
+  margin-right: 131px;
+}
 
 .site-nav {
   font-weight: 500;
