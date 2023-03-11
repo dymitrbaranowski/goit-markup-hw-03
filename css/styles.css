@@ -89,6 +89,7 @@ a {
   height: 72px;
   left: 0px;
   top: 0px;
+  outline: 1px solid --Accent;
 }
 
 .site-logo {
@@ -288,10 +289,9 @@ Our advantages*/
 
 
 
-.advantages-list {
+.advantages-list.list {
   display: flex;
-   gap: 8px;
- 
+  gap: 8px;
 }
 
 .text-item-advantages {
@@ -357,6 +357,12 @@ height: 104px;
   line-height: 1.11;
   color: var(--Dark);
   text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .doing-container {
@@ -410,12 +416,21 @@ margin-left: 16px;
 margin-right: 16px;
 }
 .team-item {
-  padding-top: 232px;
+  padding-top: 72 px;
   padding-bottom: 120px;
 }
 
 .team-title {
   padding-top: 120px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+
 }
 
 .team-text {
