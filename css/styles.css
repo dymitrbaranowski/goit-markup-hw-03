@@ -87,12 +87,12 @@ a {
   display: flex;
   align-items: center;
   height: 72px;
-left: 0px;
-top: 0px;
+  left: 0px;
+  top: 0px;
 }
 
 .site-logo {
-  margin-right: 131px;
+
 }
 
 
@@ -108,11 +108,15 @@ top: 0px;
   display: flex;
 }
 .nav-list {
-  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-left: 76px;
+  
 }
 
 .site-nav.list {
   display: flex;
+  gap: 40PX;
 }
 
 .site-logo .logo {
@@ -120,7 +124,7 @@ top: 0px;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;+
+  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -132,6 +136,9 @@ top: 0px;
 .logo {
   color :var(--Primary-Brand);
   text-decoration: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 156px;
 }  
 
 .logo-name {
@@ -177,6 +184,7 @@ top: 0px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   list-style: none;
+  display: flex;
 }
 
 .contact-item {
@@ -185,7 +193,19 @@ top: 0px;
   color: var(--Text);
   display: block;
 
-} 
+}
+
+.mail-link {
+   padding-top: 24px;
+  padding-bottom: 24px;
+  margin-left: 332px;
+}
+
+.tel-link {
+   padding-top: 24px;
+  padding-bottom: 24px;
+  margin-left: 40px;
+}
 
 .auth-nav-container {
   display:flex;
@@ -212,10 +232,18 @@ top: 0px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  min-width: 496px;
+
   width: 496px;
+  height: 120px;
+  margin-left: 472px;
+ 
 
-
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
 }
+
 .hero-link {
   cursor: pointer;
   font-family: inherit;
@@ -223,21 +251,59 @@ top: 0px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-
+  display: inline-block;
+  width: 169px;
+  height: 56px;
+  margin-top: 48px;
+  margin-bottom: ;
 }
 
 .hero {
   background-color: var(--Dark);
- text-align: center;
- max-width: 1440;
+  text-align: center;
+  width: 1440;
+ 
 
+}
 
+.hero-container {
+  width: 1440;
+  
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 /* S
 ite section
 Our advantages*/
 
+.container-advantages {
+  display: flex;
+  padding: 0 auto;
+  width: 1128px;
+  height: 104px;
+  margin-top: 120px;
+  gap: 24px;
+}
+
+
+
+.advantages-list {
+  display: flex;
+   gap: 8px;
+ 
+}
+
+.text-item-advantages {
+   display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+width: 264px;
+height: 104px;
+
+}
 .section-advantages {
   background-color: var(--B-g-color);
   
@@ -248,13 +314,13 @@ Our advantages*/
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
 
 }
 
 .section-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
+
 }
 
 .visually-hidden {
@@ -272,6 +338,7 @@ Our advantages*/
   line-height: 1.07;
 }
 
+.
 
 /* Site sectin What are we doing*/
 
@@ -283,19 +350,30 @@ Our advantages*/
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--Dark);
+  
 }
 
 .doing-title {
   line-height: 1.11;
   color: var(--Dark);
+  text-align: center;
 }
 
 .doing-container {
+  width: 1128px;
+  height: 412px;
+  margin-top: 120px;
+}
+
+.doing-list {
   display: flex;
 }
 /* Site sectin Our Team
 */
 
+.team-container {
+  margin-top: 120px;
+}
 .section-team {
   font-weight: 500;
   font-size: 20px;
@@ -303,6 +381,41 @@ Our advantages*/
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--Dark);
+  
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  
+}
+
+.team-description {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+margin-top: 32px;
+width: 232px;
+height: 56px;
+flex: none;
+order: 1;
+flex-grow: 0;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
+margin-left: 16px;
+margin-right: 16px;
+}
+.team-item {
+  padding-top: 232px;
+  padding-bottom: 120px;
+}
+
+.team-title {
+  padding-top: 120px;
 }
 
 .team-text {
@@ -320,10 +433,24 @@ Our advantages*/
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--Accent);
+  margin-top: 16px;
+  margin-left: 156px;
+  padding-bottom: 100px;
+  width: 264px;
+
 }
 
 .logo-footer {
-
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-top: 100px;
+  padding-left: 156px;
 }
 
 /* Portflio.html */
@@ -334,15 +461,61 @@ Our advantages*/
   font-weight: 500;
   line-height: 1.5;
   display: flex;
+  flex-grow: 1;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.04em;
+
   cursor: pointer;
 }
 /* Site Advantages */
 
+.advantages-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 96px;
+  padding-bottom: 66px;
+
+  
+ 
+}
+.advantages-list-btn {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.advantages-link {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  max-width: 116px;
+  max-height: 48px;
+  background:var(--Light);
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
+  flex: none;
+  flex-grow: 1;
+ 
+}
+
+.advantages-list-benefits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 54px;
+  column-gap: 24px;
+}
+
+.benefins-item:nth-child(n+7) {
+  padding-bottom: 120px;
+}
 .advantages-list {
   text-decoration: none;
+  display: block;
+
 }
 
 .advantages-title {
@@ -351,6 +524,9 @@ Our advantages*/
   line-height: 1.2;  
   letter-spacing: 0.02em;
   color: var(--Dark);
+  margin-top: 32px;
+  padding-left: 16px;
+  padding-right: auto;
 }
 
 .advantages-text {
@@ -358,6 +534,9 @@ Our advantages*/
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--Text);
+  margin-top: 8px;
+  padding-left: 16px;
+  padding-bottom: 32px;
 
 }
  /* Button */
@@ -373,8 +552,8 @@ Our advantages*/
     background-color: var(--Primary-Brand);
  }
  .button.primary:active {
-  color: var(--B-g-color);
-  background-color: var(--Pressed-state);
+    color: var(--B-g-color);
+    background-color: var(--Pressed-state);
  } 
  .button.primary {
     color: var(--Primary-Brand);
@@ -382,15 +561,21 @@ Our advantages*/
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     flex: none;
-    order: 1;
     flex-grow: 0;
+    max-width: 116px;
+    font-family: inherit;
+    font-size: 16px;
  } 
  .button.secondary {
     color: var(--B-g-color);
     background-color: var(--Primary-Brand); 
     font-family: inherit;
-   
+    font-size: 16px;
+    line-height: 24px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
  }
+
 .button.secondary:hover,
 .button.secondary:focus {
   color: var(--B-g-color);
