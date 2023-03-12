@@ -82,6 +82,9 @@ a {
   outline: 1px solid --Accent;
 }
 
+.page-header {
+  border-bottom: 1px solid --Accent;
+}
 .site-logo {
 
 }
@@ -266,17 +269,17 @@ Our advantages*/
 .advantages-list.list {
   display: flex;
   gap: 24px;
+  flex-basis: calc(100%/4);
 }
 
 .text-item-advantages {
    display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 8px;
-width: 264px;
-height: 104px;
-
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 264px;
+  height: 104px;
 }
 .section-advantages {
   background-color: var(--B-g-color);
@@ -346,11 +349,12 @@ height: 104px;
   
 }
 .doing-section {
-  background-color:var(--Light);
+ 
 }
 .doing-list {
   display: flex;
   gap: 24px;
+  flex-basis: calc(100%/3);
 }
 /* Site sectin Our Team
 */
@@ -358,6 +362,7 @@ height: 104px;
 .team-container {
   padding-top: 120px;
   padding-bottom: 120px;
+  background-color: var(--Light);
 }
 .section-team {
   font-weight: 500;
@@ -374,23 +379,24 @@ height: 104px;
   display: flex;
   gap: 24px;
   justify-content: center;
-  
+  flex-basis: calc(100%/4);
 }
 
 .team-description {
   display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 8px;
-flex: none;
-order: 1;
-flex-grow: 0;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px;
-padding-top: 32px;
-padding-bottom: 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  background-color: var(--B-g-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .team-item {
   padding-top: 72 px;
@@ -416,9 +422,7 @@ padding-bottom: 32px;
 
 .container.footer {
   background-color: var(--Dark);
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 156px;
+  padding: 100px 0 100px 156px;
 }
 
 .footer-text {
@@ -464,7 +468,7 @@ padding-bottom: 32px;
 }
 
 .benefits-description {
-  padding: 32px 0 86px 16px;
+  padding: 32px 0 32px 16px;
   border-left: 1px solid #E7E9FC;
   border-right: 1px solid #E7E9FC;
   border-bottom: 1px solid #E7E9FC;
@@ -482,6 +486,7 @@ padding-bottom: 32px;
   display: flex;
   justify-content: center;
   gap: 24px;
+
 }
 
 .advantages-link {
@@ -505,6 +510,7 @@ padding-bottom: 32px;
   flex-wrap: wrap;
   justify-content: center;
   column-gap: 24px;
+  row-gap: 48px;
 }
 
 .advantages-list {
