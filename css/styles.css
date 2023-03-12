@@ -19,12 +19,6 @@ body {
   background-color: var(--B-g-color);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  width: 1440;
-  
-}
-
-main {
-  max-width: 1440;
 }
 
 h1,
@@ -74,13 +68,9 @@ a {
 /* Site nav*/
 
 .container {
-  max-width: 1440px;
-
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  outline: 2px solid red;
-  
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;  
 } 
 
 .header-container {
@@ -96,10 +86,8 @@ a {
 
 }
 
-
 .nav-container {
   display: flex;
-
 }
 .site-nav a{
   font-weight: 500;
@@ -112,12 +100,11 @@ a {
   padding-top: 24px;
   padding-bottom: 24px;
   margin-left: 76px;
-  
 }
 
 .site-nav.list {
   display: flex;
-  gap: 40PX;
+  gap: 40px;
 }
 
 .site-logo .logo {
@@ -139,7 +126,6 @@ a {
   text-decoration: none;
   padding-top: 24px;
   padding-bottom: 24px;
-  padding-left: 156px;
 }  
 
 .logo-name {
@@ -153,7 +139,6 @@ a {
 .site-nav :hover,
 .site-nav :focus {
   color:var( --Pressed-state);
-
 }
 .site-nav :active {
   color:var( --Pressed-state);
@@ -186,6 +171,7 @@ a {
   letter-spacing: 0.02em;
   list-style: none;
   display: flex;
+  margin-left: auto;
 }
 
 .contact-item {
@@ -197,20 +183,17 @@ a {
 }
 
 .mail-link {
-   padding-top: 24px;
+  padding-top: 24px;
   padding-bottom: 24px;
-  margin-left: 332px;
+ 
 }
 
 .tel-link {
-   padding-top: 24px;
+  padding-top: 24px;
   padding-bottom: 24px;
   margin-left: 40px;
 }
 
-.auth-nav-container {
-  display:flex;
-}
 
 .auth-nav a {
   color: inherit;
@@ -234,15 +217,12 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   min-width: 496px;
-
   width: 496px;
   height: 120px;
-  margin-left: 472px;
- 
-
-font-weight: 700;
-font-size: 56px;
-line-height: 60px;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
 }
 
 .hero-link {
@@ -253,8 +233,7 @@ line-height: 60px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   display: inline-block;
-  width: 169px;
-  height: 56px;
+  padding: 16px 32px;
   margin-top: 48px;
   margin-bottom: ;
 }
@@ -262,14 +241,11 @@ line-height: 60px;
 .hero {
   background-color: var(--Dark);
   text-align: center;
-  width: 1440;
  
-
 }
 
 .hero-container {
-  width: 1440;
-  
+  width: 1158px;
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -281,17 +257,15 @@ Our advantages*/
 .container-advantages {
   display: flex;
   padding: 0 auto;
-  width: 1128px;
-  height: 104px;
-  margin-top: 120px;
-  gap: 24px;
+  width: 1158px;
+  
 }
 
 
 
 .advantages-list.list {
   display: flex;
-  gap: 8px;
+  gap: 24px;
 }
 
 .text-item-advantages {
@@ -306,6 +280,8 @@ height: 104px;
 }
 .section-advantages {
   background-color: var(--B-g-color);
+  padding-top:120px ;
+  padding-bottom: 120px;
   
 }
  
@@ -354,31 +330,34 @@ height: 104px;
 }
 
 .doing-title {
-  line-height: 1.11;
   color: var(--Dark);
-  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .doing-container {
-  width: 1128px;
-  height: 412px;
-  margin-top: 120px;
+  width: 1158px;
+  padding-bottom: 120px;
+  
 }
-
+.doing-section {
+  background-color:var(--Light);
+}
 .doing-list {
   display: flex;
+  gap: 24px;
 }
 /* Site sectin Our Team
 */
 
 .team-container {
-  margin-top: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .section-team {
   font-weight: 500;
@@ -387,6 +366,7 @@ height: 104px;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--Dark);
+  margin-bottom: 8px;
   
 }
 
@@ -404,24 +384,19 @@ justify-content: center;
 align-items: center;
 padding: 0px;
 gap: 8px;
-margin-top: 32px;
-width: 232px;
-height: 56px;
 flex: none;
 order: 1;
 flex-grow: 0;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px;
-margin-left: 16px;
-margin-right: 16px;
+padding-top: 32px;
+padding-bottom: 32px;
 }
 .team-item {
   padding-top: 72 px;
-  padding-bottom: 120px;
 }
 
 .team-title {
-  padding-top: 120px;
   text-align: center;
   font-weight: 700;
   font-size: 36px;
@@ -430,7 +405,6 @@ margin-right: 16px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
-
 }
 
 .team-text {
@@ -440,8 +414,11 @@ margin-right: 16px;
 }
 /* Footer*/
 
-.footer {
+.container.footer {
   background-color: var(--Dark);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 156px;
 }
 
 .footer-text {
@@ -449,8 +426,6 @@ margin-right: 16px;
   letter-spacing: 0.02em;
   color: var(--Accent);
   margin-top: 16px;
-  margin-left: 156px;
-  padding-bottom: 100px;
   width: 264px;
 
 }
@@ -464,8 +439,8 @@ margin-right: 16px;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-top: 100px;
-  padding-left: 156px;
+  color :var(--Primary-Brand);
+  text-decoration: none;
 }
 
 /* Portflio.html */
@@ -479,19 +454,26 @@ margin-right: 16px;
   flex-grow: 1;
   align-items: center;
   text-align: center;
-
   cursor: pointer;
 }
 /* Site Advantages */
 
+.benefits-advantages-container {
+  padding-top: 96px;
+  padding-bottom: 66px;
+}
+
+.benefits-description {
+  padding: 32px 0 86px 16px;
+}
 .advantages-container {
   display: flex;
   justify-content: center;
-  padding-top: 96px;
-  padding-bottom: 66px;
+  margin-bottom: 66px;
+}
 
+.benefits-container {
   
- 
 }
 .advantages-list-btn {
   display: flex;
@@ -513,24 +495,18 @@ margin-right: 16px;
   border-radius: 4px;
   flex: none;
   flex-grow: 1;
- 
 }
 
 .advantages-list-benefits {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  row-gap: 54px;
   column-gap: 24px;
 }
 
-.benefins-item:nth-child(n+7) {
-  padding-bottom: 120px;
-}
 .advantages-list {
   text-decoration: none;
   display: block;
-
 }
 
 .advantages-title {
@@ -539,9 +515,6 @@ margin-right: 16px;
   line-height: 1.2;  
   letter-spacing: 0.02em;
   color: var(--Dark);
-  margin-top: 32px;
-  padding-left: 16px;
-  padding-right: auto;
 }
 
 .advantages-text {
@@ -550,9 +523,6 @@ margin-right: 16px;
   letter-spacing: 0.02em;
   color: var(--Text);
   margin-top: 8px;
-  padding-left: 16px;
-  padding-bottom: 32px;
-
 }
  /* Button */
 
