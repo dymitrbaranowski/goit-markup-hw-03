@@ -68,7 +68,7 @@ a {
 /* Site nav*/
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   padding: 0 15px;
   margin: 0 auto;  
 } 
@@ -83,7 +83,7 @@ a {
 }
 
 .page-header {
-  border-bottom: 1px solid --Accent;
+  border-bottom: 1px solid var(--Accent)
 }
 .site-logo {
 
@@ -248,7 +248,6 @@ a {
 }
 
 .hero-container {
-  width: 1158px;
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -420,7 +419,7 @@ Our advantages*/
 }
 /* Footer*/
 
-.container.footer {
+.footer {
   background-color: var(--Dark);
   padding: 100px 0 100px 156px;
 }
@@ -568,6 +567,7 @@ Our advantages*/
     line-height: 24px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: transparent;
  }
 
 .button.secondary:hover,
