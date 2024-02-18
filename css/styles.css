@@ -140,6 +140,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   display: flex;
+  gap: 40px;
 }
 
 .contact-item {
@@ -147,17 +148,8 @@ address {
   letter-spacing: 0.02em;
   color: var(--Text);
   display: block;
-}
-
-.mail-link {
   padding-top: 24px;
   padding-bottom: 24px;
-}
-
-.tel-link {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  margin-left: 40px;
 }
 
 .auth-nav a:hover,
@@ -188,7 +180,7 @@ address {
   width: 496px;
   margin: 0 auto;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
 }
 
 .hero-link {
