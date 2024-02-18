@@ -297,7 +297,6 @@ Our advantages*/
 .team-description {
   display: flex;
   flex-direction: column;
-  padding: 0px;
   gap: 8px;
   background-color: var(--B-g-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
